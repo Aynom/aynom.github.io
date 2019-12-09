@@ -1,0 +1,47 @@
+/* Javadoc style sheet */
+
+/* Define colors, fonts and other style attributes here to override the defaults  */
+
+/* Page background color */
+body { background-color: #FFFFFF; color:#000088 } /* White; Dark Blue */
+a:active {color: #0000FF} /* Royal blue */
+a:visited {color: #0000FF} /* Royal blue */
+
+/* Table colors */
+.TableHeadingColor     { background: #CC9966; color:#006600;} /* Brown; DarkGreen */
+.TableSubHeadingColor  { background: #CCCC99; color:#006600; } /* Grey/Green; DarkGreen  */
+.TableRowColor         { background: #FFFFCC; color:#000088; } /* Cream; Dark Blue */
+
+/* Font used in left-hand frame lists */
+.FrameTitleFont   { font-size: normal; font-family: normal }
+.FrameHeadingFont { font-size: normal; font-family: normal }
+.FrameItemFont    { font-size: normal; font-family: normal }
+
+/* Example of smaller, sans-serif font in frames */
+/* .FrameItemFont  { font-size: 10pt; font-family: Helvetica, Arial, sans-serif } */
+
+/* Navigation bar fonts and colors */
+.NavBarCell1    { background-color:#FFFFFF;} /* White */
+.NavBarCell1Rev { background-color:#FFFFCC;} /* Cream */
+.NavBarFont1    { font-family: Arial, Helvetica, sans-serif; color:#006600;} /* Dark Green */
+.NavBarFont1Rev { font-family: Arial, Helvetica, sans-serif; color:#006600;} /* Dark Green */
+
+.NavBarCell2    { font-family: Arial, Helvetica, sans-serif; background-color:#FFFFFF;} /* White */
+.NavBarCell3    { font-family: Arial, Helvetica, sans-serif; background-color:#FFFFFF;} /* White */
+
+
+/* Process Component-Data Table */
+table.ProcessCDTable {
+ width: 100%;
+}
+tr.ProcessCDTableHeading {
+ background-color: #cc9966; /* Brown */
+ color: #006600; /* Dark Green */
+}
+th.ProcessCDTableHeading {
+ width: 50%;
+}
+tr.ProcessCDTableRow {
+ background-color: #ffffcc; /* Cream */
+ color: #000088; /* Dark Blue */
+}
